@@ -21,7 +21,7 @@ allCard.forEach((elm, index) => {
   grid.append(card)
   card.addEventListener('click', handle)
 
-  //  
+  //
 })
 
 let arr = []
@@ -43,7 +43,7 @@ function handle({ target }) {
       img.children[0].classList.add('block')
       arr.splice(0, 2)
       imgSrc.splice(0, 2)
-    //   console.log(arr)
+      //   console.log(arr)
       img.children.classList.remove('none')
     }
     if (imgSrc[0] !== imgSrc[1] && imgSrc.length == 2) {
